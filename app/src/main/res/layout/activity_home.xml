@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#00D4C2"
+    tools:context=".homeActivity">
+
+
+    <LinearLayout
+
+
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="@drawable/back"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/logo"
+            app:srcCompat="@mipmap/h_launcher" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/clinics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#634D72"
+            android:text="@string/health"
+            android:textColor="@color/book"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/appoinments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#634D72"
+            android:text="@string/appoint"
+            android:textColor="@color/book"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#9AA4DA"
+            android:text="@string/back"
+            android:textColor="@color/signout"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+        <Button
+            android:id="@+id/signoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#9AA4DA"
+            android:text="@string/signout"
+            android:textColor="@color/signout"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".appointment">
+
+
+    <LinearLayout
+        android:id="@+id/appointment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/id"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/purple_500"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/clinic_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/teal_200"
+            android:entries="@array/Clinics"
+            android:padding="15dp"
+            android:persistentDrawingCache="animation"
+            android:popupBackground="@color/teal_200"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:textDirection="firstStrongRtl" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date_and_time" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/date_time"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:textColor="@color/purple_700"
+            android:textSize="30sp"
+            tools:text="@string/dateTime" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/book" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:contentDescription="@string/logo"
+            app:srcCompat="@drawable/doctor" />
+
+        <Button
+            android:id="@+id/back_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:gravity="center"
+            android:text="@string/back1"
+            app:shapeAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    </LinearLayout>
+</RelativeLayout>

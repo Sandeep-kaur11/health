@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">health+</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_geolocate">Pick Place</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="title_activity_appointments">Appointments</string>
+    <string name="logo_desc">this is the logo of the app.</string>
+    <string name="sign_in">Log in</string>
+    <string name="create_acc">Create Account</string>
+    <string name="or">New User? Then create new account.</string>
+    <string name="please_enter_a_username">(Please enter a username)</string>
+    <string name="username">Username</string>
+    <string name="please_enter_a_password">(Please enter a password)</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="log_In">Log-in</string>
+    <string name="todo">TODO</string>
+
+    <string name="Register">Registration form</string>
+    <string name="already_registered_signin">Already registered? SignIn</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="namefield">User Name</string>
+    <string name="profile">Profile</string>
+    <string name="health">View Clinics</string>
+
+    <string name="appoint">Book Appointment</string>
+
+    <string name="payment">Payments</string>
+
+    <string name="signout">Sign Out</string>
+    <string name="doc_desc">This is logo of doctor</string>
+
+    <string name="user">user logo</string>
+
+    <string name="welcm">Welcome to</string>
+    <string name="h1">Health+</string>
+    <string name="slogan">Commit to be Fit</string>
+    <string name="back1">View Menu</string>
+    <string name="clinic_list_heading">Below is the list of Available Clinics.</string>
+    <string name="logo">this is logo of app.</string>
+    <string name="date_and_time">Pick a Date and Time</string>
+    <string name="time">Pick a Time</string>
+    <string name="book">Book Appointment</string>
+    <string name="view">View Appointments</string>
+    <string name="dateTime">Date:  MM-DD-YYYY
+    Time: HH:MM am/pm</string>
+    <string name="back">Back</string>
+    <string name="id">Enter your username</string>
+    <string name="view_appointment">Your appointments</string>
+    <string name="back3">Home</string>
+    <string-array name="Clinics">
+        <item>Rexdale</item>
+        <item>Appletree</item>
+        <item>Vital Urgent care</item>
+        <item>Smile Makers</item>
+        <item>Oakdale</item>
+        <item>A+ Medical Inc.</item>
+    </string-array>
+
+</resources>
